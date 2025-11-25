@@ -51,6 +51,45 @@ A comprehensive collection of beginner-friendly C programs designed to take you 
 - Creative output formatting
 - Interactive storytelling
 
+### **6. swap.c** - Variable Swapping Program
+**Description**: Demonstrates how to swap the values of two variables using a temporary variable. This is a fundamental programming concept used in many algorithms.
+
+**Key Concepts**:
+- Variable assignment and reassignment
+- Temporary variable usage
+- Value swapping technique
+- Understanding variable memory
+
+
+### **7. remainder.c** - Division and Modulo Operations
+**Description**: Shows how to perform division and find remainders using the modulo operator. Essential for mathematical operations and algorithms.
+
+**Key Concepts**:
+- Division operator (`/`)
+- Modulo operator (`%`)
+- Integer division vs floating-point division
+- Multiple input handling
+
+
+### **8. average.c** - Calculating Averages
+**Description**: Calculates the average of three numbers, introducing floating-point arithmetic and multiple variable input in a single statement.
+
+**Key Concepts**:
+- Floating-point data types (`float`)
+- Multiple variable input in one `scanf()`
+- Arithmetic operations with floats
+- Formatted output with precision (`.2f`)
+
+
+### **9. CtoF.c** - Temperature Conversion
+**Description**: Converts temperature from Celsius to Fahrenheit, demonstrating mathematical formulas and unit conversion in programming.
+
+**Key Concepts**:
+- Mathematical formula implementation
+- Order of operations in expressions
+- Integer arithmetic
+- Real-world application of programming
+
 ## 🛠️ Compilation and Execution
 
 ### **Prerequisites**
@@ -65,6 +104,10 @@ gcc -o cv CV.c
 gcc -o sum sum.c
 gcc -o calculator calcul.c
 gcc -o madlibs madlibs.c
+gcc -o swap swap.c
+gcc -o remainder remainder.c
+gcc -o average average.c
+gcc -o ctof CtoF.c
 
 # Run the programs
 ./hello
@@ -72,6 +115,10 @@ gcc -o madlibs madlibs.c
 ./sum
 ./calculator
 ./madlibs
+./swap
+./remainder
+./average
+./ctof
 ```
 
 ## 🎯 Learning Path
@@ -81,6 +128,10 @@ gcc -o madlibs madlibs.c
 | **hello.c** | Beginner | Basic syntax, output |
 | **CV.c** | Beginner | Variables, user input |
 | **sum.c** | Beginner | Arithmetic operations |
+| **swap.c** | Beginner | Variable manipulation |
+| **remainder.c** | Beginner | Division and modulo |
+| **average.c** | Beginner | Floating-point math |
+| **CtoF.c** | Beginner | Mathematical formulas |
 | **calcul.c** | Intermediate | Control structures, error handling |
 | **madlibs.c** | Intermediate | String manipulation, arrays |
 
@@ -89,8 +140,12 @@ gcc -o madlibs madlibs.c
 1. **Start with hello.c** to understand basic program structure
 2. **Move to CV.c** to learn about user input
 3. **Practice with sum.c** for arithmetic operations
-4. **Advance to calcul.c** for complex logic
-5. **Enjoy madlibs.c** for creative programming
+4. **Learn variable manipulation with swap.c**
+5. **Explore division operations with remainder.c**
+6. **Work with floats in average.c**
+7. **Apply formulas in CtoF.c**
+8. **Advance to calcul.c** for complex logic
+9. **Enjoy madlibs.c** for creative programming
 
 ## 💡 Learning Outcomes
 
@@ -98,10 +153,32 @@ By completing these programs, you will master:
 - ✅ Basic C syntax and structure
 - ✅ Variable declaration and usage
 - ✅ User input and output operations
+- ✅ Arithmetic and mathematical operations
+- ✅ Variable manipulation and swapping
+- ✅ Floating-point calculations
 - ✅ Conditional statements and loops
 - ✅ String manipulation techniques
 - ✅ Error handling and validation
 - ✅ Problem-solving skills
+
+## 🧩 Program Categories
+
+### **Fundamental Concepts**
+- `hello.c` - Program structure
+- `CV.c` - Input/Output operations
+- `sum.c` - Basic arithmetic
+
+### **Variable Operations**
+- `swap.c` - Variable manipulation
+- `average.c` - Multiple variables and floats
+
+### **Mathematical Operations**
+- `remainder.c` - Division and modulo
+- `CtoF.c` - Formula implementation
+- `calcul.c` - Complex calculations
+
+### **Advanced Concepts**
+- `madlibs.c` - String handling and arrays
 
 ## 🤝 Contributing
 
@@ -110,6 +187,7 @@ Feel free to contribute by:
 - Improving existing code with comments
 - Suggesting new learning exercises
 - Fixing bugs or enhancing features
+- Adding more real-world examples
 
 ## 📖 Next Steps
 
@@ -119,6 +197,8 @@ After mastering these basics, consider learning:
 - Structures and file I/O
 - Dynamic memory allocation
 - Data structures and algorithms
+- Command-line arguments
+- Multi-file programs
 
 ---
 
