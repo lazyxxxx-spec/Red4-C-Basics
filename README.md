@@ -60,7 +60,6 @@ A comprehensive collection of beginner-friendly C programs designed to take you 
 - Value swapping technique
 - Understanding variable memory
 
-
 ### **7. remainder.c** - Division and Modulo Operations
 **Description**: Shows how to perform division and find remainders using the modulo operator. Essential for mathematical operations and algorithms.
 
@@ -69,7 +68,6 @@ A comprehensive collection of beginner-friendly C programs designed to take you 
 - Modulo operator (`%`)
 - Integer division vs floating-point division
 - Multiple input handling
-
 
 ### **8. average.c** - Calculating Averages
 **Description**: Calculates the average of three numbers, introducing floating-point arithmetic and multiple variable input in a single statement.
@@ -80,7 +78,6 @@ A comprehensive collection of beginner-friendly C programs designed to take you 
 - Arithmetic operations with floats
 - Formatted output with precision (`.2f`)
 
-
 ### **9. CtoF.c** - Temperature Conversion
 **Description**: Converts temperature from Celsius to Fahrenheit, demonstrating mathematical formulas and unit conversion in programming.
 
@@ -90,11 +87,31 @@ A comprehensive collection of beginner-friendly C programs designed to take you 
 - Integer arithmetic
 - Real-world application of programming
 
+### **10. circle.c** - Geometry Calculator
+**Description**: A comprehensive geometry program that calculates circle area, sphere surface area, and sphere volume using mathematical constants and formulas.
+
+**Key Concepts**:
+- Mathematical constants (`M_PI` from math.h)
+- Power function (`pow()`)
+- Multiple geometric calculations
+- Input validation and error handling
+- Scientific formula implementation
+
+### **11. rectangle.c** - Perimeter Calculator
+**Description**: Calculates the perimeter of a rectangle with input validation to ensure positive dimensions.
+
+**Key Concepts**:
+- Input validation with error checking
+- Geometric formula implementation
+- Conditional error handling
+- Professional user interface design
+
 ## 🛠️ Compilation and Execution
 
 ### **Prerequisites**
 - GCC compiler installed on your system
 - Basic command-line knowledge
+- Math library for geometry programs (`-lm` flag)
 
 ### **Compilation Commands**
 ```bash
@@ -108,6 +125,8 @@ gcc -o swap swap.c
 gcc -o remainder remainder.c
 gcc -o average average.c
 gcc -o ctof CtoF.c
+gcc -o circle circle.c -lm
+gcc -o rectangle rectangle.c
 
 # Run the programs
 ./hello
@@ -119,6 +138,8 @@ gcc -o ctof CtoF.c
 ./remainder
 ./average
 ./ctof
+./circle
+./rectangle
 ```
 
 ## 🎯 Learning Path
@@ -132,6 +153,8 @@ gcc -o ctof CtoF.c
 | **remainder.c** | Beginner | Division and modulo |
 | **average.c** | Beginner | Floating-point math |
 | **CtoF.c** | Beginner | Mathematical formulas |
+| **rectangle.c** | Beginner | Input validation, geometry |
+| **circle.c** | Intermediate | Math library, complex formulas |
 | **calcul.c** | Intermediate | Control structures, error handling |
 | **madlibs.c** | Intermediate | String manipulation, arrays |
 
@@ -144,8 +167,10 @@ gcc -o ctof CtoF.c
 5. **Explore division operations with remainder.c**
 6. **Work with floats in average.c**
 7. **Apply formulas in CtoF.c**
-8. **Advance to calcul.c** for complex logic
-9. **Enjoy madlibs.c** for creative programming
+8. **Practice input validation with rectangle.c**
+9. **Explore advanced math with circle.c**
+10. **Advance to calcul.c** for complex logic
+11. **Enjoy madlibs.c** for creative programming
 
 ## 💡 Learning Outcomes
 
@@ -159,6 +184,9 @@ By completing these programs, you will master:
 - ✅ Conditional statements and loops
 - ✅ String manipulation techniques
 - ✅ Error handling and validation
+- ✅ Mathematical library functions
+- ✅ Input validation techniques
+- ✅ Geometric calculations
 - ✅ Problem-solving skills
 
 ## 🧩 Program Categories
@@ -177,8 +205,26 @@ By completing these programs, you will master:
 - `CtoF.c` - Formula implementation
 - `calcul.c` - Complex calculations
 
+### **Geometry & Advanced Math**
+- `rectangle.c` - Perimeter calculations with validation
+- `circle.c` - Circle and sphere geometry with math library
+
 ### **Advanced Concepts**
 - `madlibs.c` - String handling and arrays
+
+## 🔬 Advanced Features in New Programs
+
+### **circle.c Highlights:**
+- Uses `math.h` library for mathematical constants and functions
+- Implements multiple geometric formulas in one program
+- Demonstrates proper use of `pow()` function for exponents
+- Shows formatted output with detailed calculation steps
+
+### **rectangle.c Highlights:**
+- Comprehensive input validation for positive values
+- Professional error handling with clear messages
+- Clean user interface with section headers
+- Demonstrates real-world application development
 
 ## 🤝 Contributing
 
@@ -188,6 +234,7 @@ Feel free to contribute by:
 - Suggesting new learning exercises
 - Fixing bugs or enhancing features
 - Adding more real-world examples
+- Creating programs with different mathematical concepts
 
 ## 📖 Next Steps
 
@@ -199,6 +246,8 @@ After mastering these basics, consider learning:
 - Data structures and algorithms
 - Command-line arguments
 - Multi-file programs
+- Advanced mathematical applications
+- Graphics programming
 
 ---
 
